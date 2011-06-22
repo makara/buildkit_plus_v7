@@ -7,18 +7,6 @@ includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs
 
 ; Override buildkit ===========================================================
 
-projects[ctools][type] = "module"
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-beta1"
-
-projects[features][type] = "module"
-projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta3"
-
-projects[views][type] = "module"
-projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc1"
-
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
 projects[rubik][download][url] = "git://github.com/Wiredcraft/rubik.git"
