@@ -30,7 +30,7 @@ projects[entity][version] = "1.0-beta9"
 
 projects[feeds][type] = "module"
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha3"
+projects[feeds][version] = "2.0-alpha4"
 
 projects[job_scheduler][type] = "module"
 projects[job_scheduler][subdir] = "contrib"
