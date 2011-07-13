@@ -1,11 +1,46 @@
 core = "7.x"
 api = "2"
 
-; Includes ====================================================================
+; Buildkit ====================================================================
 
-includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make"
+projects[admin][type] = "module"
+projects[admin][subdir] = "contrib"
+projects[admin][version] = "2.0-beta3"
 
-; Override buildkit ===========================================================
+projects[context][type] = "module"
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-beta1"
+
+projects[ctools][type] = "module"
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.0-beta1"
+
+projects[devel][type] = "module"
+projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.0"
+
+projects[diff][type] = "module"
+projects[diff][subdir] = "contrib"
+projects[diff][version] = "2.0-beta2"
+
+projects[features][type] = "module"
+projects[features][subdir] = "contrib"
+projects[features][version] = "1.0-beta3"
+
+projects[openidadmin][type] = "module"
+projects[openidadmin][subdir] = "contrib"
+projects[openidadmin][version] = "1.0"
+
+projects[strongarm][type] = "module"
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0-beta2"
+
+projects[views][type] = "module"
+projects[views][subdir] = "contrib"
+projects[views][version] = "3.0-rc1"
+
+projects[tao][type] = "theme"
+projects[tao][version] = "3.0-beta3"
 
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
@@ -26,7 +61,7 @@ projects[date][version] = "2.0-alpha3"
 
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-beta9"
+projects[entity][version] = "1.0-beta10"
 
 projects[feeds][type] = "module"
 projects[feeds][subdir] = "contrib"
@@ -56,13 +91,15 @@ projects[transliteration][version] = "3.0-alpha1"
 
 ; Views
 
-; Spaces
-
 ; Performance
 
 projects[entitycache][type] = "module"
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.0"
+
+projects[mongodb][type] = "module"
+projects[mongodb][subdir] = "contrib"
+projects[mongodb][version] = "1.0-beta2"
 
 ; Libraries ===================================================================
 
