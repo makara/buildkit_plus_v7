@@ -2,6 +2,7 @@ core = "7.x"
 api = "2"
 
 ; Buildkit ====================================================================
+; http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 
 projects[admin][type] = "module"
 projects[admin][subdir] = "contrib"
@@ -17,7 +18,7 @@ projects[ctools][version] = "1.0-beta1"
 
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.0"
+projects[devel][version] = "1.1"
 
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
@@ -70,6 +71,7 @@ projects[feeds][version] = "2.0-alpha4"
 projects[job_scheduler][type] = "module"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha2"
+projects[job_scheduler][patch][1137378] = http://drupal.org/files/issues/fix_nexthour-1137378-no_prefix.patch
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
@@ -77,7 +79,7 @@ projects[libraries][version] = "1.0"
 
 projects[markdown][type] = "module"
 projects[markdown][subdir] = "contrib"
-projects[markdown][version] = "1.0-beta1"
+projects[markdown][version] = "1.0"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
