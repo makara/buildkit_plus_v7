@@ -22,7 +22,7 @@ projects[devel][version] = "1.1"
 
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.0-beta2"
+projects[diff][version] = "2.0"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
