@@ -18,7 +18,7 @@ projects[ctools][version] = "1.0-beta1"
 
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.1"
+projects[devel][version] = "1.2"
 
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
