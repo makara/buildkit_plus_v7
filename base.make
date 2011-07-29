@@ -14,7 +14,7 @@ projects[context][version] = "3.0-beta1"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-beta1"
+projects[ctools][version] = "1.0-rc1"
 
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
