@@ -54,7 +54,7 @@ projects[rubik][download][branch] = "7.x-4.x"
 
 projects[boxes][type] = "module"
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta3"
+projects[boxes][version] = "1.0-beta4"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -83,7 +83,7 @@ projects[markdown][version] = "1.0"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta3"
+projects[token][version] = "1.0-beta4"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
