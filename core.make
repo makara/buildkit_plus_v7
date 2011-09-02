@@ -6,6 +6,9 @@ core = 7.x
 ; Drupal 7.7
 includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/73702bc542c8f625c45a5c2e3c7cfd268e5e72f7:/distro.make"
 
+; Drupal 7.8
+projects[drupal][version] = "7.8"
+
 ; Disable buildkit ============================================================
 
 projects[buildkit] = NULL
