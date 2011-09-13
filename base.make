@@ -10,7 +10,7 @@ projects[admin][version] = "2.0-beta3"
 
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta1"
+projects[context][version] = "3.0-beta2"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
@@ -45,11 +45,13 @@ projects[views][version] = "3.0-rc1"
 projects[views][patch][1024832] = "https://gist.github.com/raw/1178021/d2f5ecfb3f87ef21fc1be784c864c4d1cb813beb/views_1024832_relationship_node_term_data.patch"
 
 projects[tao][type] = "theme"
-projects[tao][version] = "3.0-beta3"
+projects[tao][download][type] = "git"
+projects[tao][download][url] = "git://github.com/makara/tao.git"
+projects[tao][download][branch] = "7.x-3.x"
 
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
-projects[rubik][download][url] = "git://github.com/Wiredcraft/rubik.git"
+projects[rubik][download][url] = "git://github.com/makara/rubik.git"
 projects[rubik][download][branch] = "7.x-4.x"
 
 ; Modules =====================================================================
@@ -87,7 +89,7 @@ projects[markdown][version] = "1.0"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta4"
+projects[token][version] = "1.0-beta5"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
