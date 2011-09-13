@@ -3,11 +3,8 @@ core = 7.x
 
 ; Includes ====================================================================
 
-; Drupal 7.7
-includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/73702bc542c8f625c45a5c2e3c7cfd268e5e72f7:/distro.make"
-
 ; Drupal 7.8
-projects[drupal][version] = "7.8"
+includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/ab07a3e591244d5f25fc17f0c122889505d4e485:/distro.make"
 
 ; Disable buildkit ============================================================
 
@@ -29,4 +26,4 @@ projects[drupal][patch][966210] = http://drupal.org/files/issues/966210_db_case_
 ; Taxonomy: replace field hooks with node hooks.
 ; http://drupal.org/node/1050466
 ; http://drupal.org/node/962664
-projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/1cd5a011912406c21b046b260b48b91109486405/1050466-plus-962664-drupal_7_7-no_prefix.patch"
+projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/a293227d46013df3623cdf08f9f99a4d15ba55f7/1050466-plus-962664-drupal_7_8-no_prefix.patch"
