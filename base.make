@@ -103,11 +103,18 @@ projects[transliteration][version] = "3.0-alpha1"
 
 projects[entitycache][type] = "module"
 projects[entitycache][subdir] = "contrib"
-projects[entitycache][version] = "1.0"
+projects[entitycache][version] = "1.1"
 
 projects[mongodb][type] = "module"
 projects[mongodb][subdir] = "contrib"
 projects[mongodb][version] = "1.0-beta2"
+
+; Themes ======================================================================
+
+projects[cube][type] = "theme"
+projects[cube][download][type] = "git"
+projects[cube][download][url] = "git://github.com/makara/cube.git"
+projects[cube][download][branch] = "master"
 
 ; Libraries ===================================================================
 
