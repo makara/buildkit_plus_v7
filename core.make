@@ -29,4 +29,4 @@ projects[drupal][patch][966210] = http://drupal.org/files/issues/966210_db_case_
 projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/a293227d46013df3623cdf08f9f99a4d15ba55f7/1050466-plus-962664-drupal_7_8-no_prefix.patch"
 
 ; http://drupal.org/node/1161708
-projects[drupal][patch][1161708] = "https://gist.github.com/raw/1164547/b17be3031d92734dffbd593ec7bf31773b29d07c/1161708_no_field_instance-no_prefix.patch"
+projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/b17be3031d92734dffbd593ec7bf31773b29d07c/1161708_no_field_instance-no_prefix.patch"
