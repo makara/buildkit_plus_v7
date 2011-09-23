@@ -26,7 +26,11 @@ projects[diff][version] = "2.0"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta3"
+projects[features][version] = "1.0-beta4"
+
+; Don't add dependencies for user permissions.
+; No issue yet.
+projects[features][patch][] = "https://raw.github.com/gist/1178021/fe25b85c41ab983413f549284b88f72dc5862344/features_user_permission.patch"
 
 projects[openidadmin][type] = "module"
 projects[openidadmin][subdir] = "contrib"
@@ -34,7 +38,7 @@ projects[openidadmin][version] = "1.0"
 
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta2"
+projects[strongarm][version] = "2.0-beta3"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
@@ -94,6 +98,10 @@ projects[token][version] = "1.0-beta5"
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
+
+projects[variable][type] = "module"
+projects[variable][subdir] = "contrib"
+projects[variable][version] = "1.1"
 
 ; Field
 
