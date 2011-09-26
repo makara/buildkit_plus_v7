@@ -30,3 +30,6 @@ projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/ad425174
 
 ; http://drupal.org/node/1161708
 projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/b17be3031d92734dffbd593ec7bf31773b29d07c/1161708_no_field_instance-no_prefix.patch"
+
+; http://drupal.org/node/737816
+projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/946134f95b173fedcbde62351b06dd9f4e6e3bbd/737816-drupal_7_8-no_prefix.patch"
