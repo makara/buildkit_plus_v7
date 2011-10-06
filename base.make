@@ -64,7 +64,8 @@ projects[rubik][download][branch] = "7.x-4.x"
 
 projects[boxes][type] = "module"
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta5"
+projects[boxes][version] = "1.0-beta6"
+projects[boxes][patch][1199442] = "http://drupal.org/files/boxes.patch"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -81,7 +82,7 @@ projects[feeds][version] = "2.0-alpha4"
 projects[job_scheduler][type] = "module"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha2"
-projects[job_scheduler][patch][1137378] = http://drupal.org/files/issues/fix_nexthour-1137378-no_prefix.patch
+projects[job_scheduler][patch][1137378] = "http://drupal.org/files/issues/fix_nexthour-1137378-no_prefix.patch"
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
@@ -93,7 +94,7 @@ projects[markdown][version] = "1.0"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta5"
+projects[token][version] = "1.0-beta6"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
@@ -104,6 +105,10 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "1.1"
 
 ; Field
+
+projects[entityreference][type] = "module"
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.0-beta1"
 
 ; Views
 
