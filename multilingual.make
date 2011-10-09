@@ -3,7 +3,7 @@ core = 7.x
 
 projects[i18n][type] = "module"
 projects[i18n][subdir] = "multilingual"
-projects[i18n][version] = "1.0"
+projects[i18n][version] = "1.1"
 
 projects[l10n_client][type] = "module"
 projects[l10n_client][subdir] = "multilingual"
