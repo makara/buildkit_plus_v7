@@ -98,7 +98,7 @@ projects[token][version] = "1.0-beta6"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0-alpha1"
+projects[transliteration][version] = "3.0"
 
 projects[variable][type] = "module"
 projects[variable][subdir] = "contrib"
