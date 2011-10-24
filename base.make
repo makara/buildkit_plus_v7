@@ -38,7 +38,7 @@ projects[openidadmin][version] = "1.0"
 
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta3"
+projects[strongarm][version] = "2.0-beta4"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
