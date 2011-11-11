@@ -73,7 +73,7 @@ projects[date][version] = "2.0-alpha4"
 
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-beta11"
+projects[entity][version] = "1.0-rc1"
 
 projects[feeds][type] = "module"
 projects[feeds][subdir] = "contrib"
