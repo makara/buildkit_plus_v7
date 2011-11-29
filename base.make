@@ -42,7 +42,7 @@ projects[strongarm][version] = "2.0-beta4"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc1"
+projects[views][version] = "3.0-rc3"
 
 ; Avoid subselect in taxonomy relationships.
 ; http://drupal.org/node/1024832
