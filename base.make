@@ -94,7 +94,7 @@ projects[markdown][version] = "1.0"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta6"
+projects[token][version] = "1.0-beta7"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
