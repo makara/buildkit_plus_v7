@@ -86,7 +86,7 @@ projects[job_scheduler][patch][1137378] = "http://drupal.org/files/issues/fix_ne
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.0-alpha1"
 
 projects[markdown][type] = "module"
 projects[markdown][subdir] = "contrib"
