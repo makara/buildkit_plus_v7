@@ -44,6 +44,10 @@ projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.0-rc3"
 
+; Fix RC3
+; http://drupal.org/node/1032836
+projects[views][patch][1032836] = "http://drupal.org/files/unpack_translatables-1032836-39.patch"
+
 ; Avoid subselect in taxonomy relationships.
 ; http://drupal.org/node/1024832
 projects[views][patch][1024832] = "https://raw.github.com/gist/1178021/d2f5ecfb3f87ef21fc1be784c864c4d1cb813beb/views_1024832_relationship_node_term_data.patch"
