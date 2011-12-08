@@ -6,15 +6,18 @@ core = 7.x
 ; Drupal 7.9
 includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/0504adaab67abab02e201e89b9fc5bfae66cb324:/distro.make"
 
+; Drupal 7.10
+projects[drupal][version] = "7.10"
+
 ; Disable buildkit ============================================================
 
 projects[buildkit] = NULL
 
 ; Extra patches ===============================================================
 
-; No patch yet.
+; Allow autocompletion requests to include slashes
 ; http://drupal.org/node/93854
-;projects[drupal][patch][93854] = "http://drupal.org/files/issues/taxonomy_autocomplete_5.patch"
+projects[drupal][patch][93854] = "http://drupal.org/files/autocomplete-slashes-d7-93854-149.patch"
 
 ; No patch yet.
 ; http://drupal.org/node/972536
@@ -25,8 +28,9 @@ projects[drupal][patch][966210] = http://drupal.org/files/issues/966210_db_case_
 
 ; Taxonomy: replace field hooks with node hooks.
 ; http://drupal.org/node/1050466
+; http://drupal.org/node/1343822
 ; http://drupal.org/node/962664
-projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/ad425174f469bf44933d874b36d5c629a4f7eb26/1050466-plus-962664-drupal_7_8-no_prefix.patch"
+projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/304595f9e6094e5922aa9bf04f76a5c523baef29/1050466-plus-1343822-plus-962664-drupal_7_10.patch"
 
 ; http://drupal.org/node/1161708
 projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/b17be3031d92734dffbd593ec7bf31773b29d07c/1161708_no_field_instance-no_prefix.patch"
