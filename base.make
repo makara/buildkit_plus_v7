@@ -73,7 +73,7 @@ projects[boxes][patch][1199442] = "http://drupal.org/files/boxes.patch"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.0-alpha4"
+projects[date][version] = "2.0-alpha5"
 
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
