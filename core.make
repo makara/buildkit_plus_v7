@@ -3,11 +3,8 @@ core = 7.x
 
 ; Includes ====================================================================
 
-; Drupal 7.9
-includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/0504adaab67abab02e201e89b9fc5bfae66cb324:/distro.make"
-
 ; Drupal 7.10
-projects[drupal][version] = "7.10"
+includes[] = "http://drupalcode.org/project/buildkit.git/blob_plain/1be826d88c3ddc8895533fe7f277fa26be8b5145:/distro.make"
 
 ; Disable buildkit ============================================================
 
