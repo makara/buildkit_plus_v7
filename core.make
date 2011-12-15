@@ -34,3 +34,7 @@ projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/b17be303
 
 ; http://drupal.org/node/737816
 projects[drupal][patch][737816] = "https://raw.github.com/gist/1164547/946134f95b173fedcbde62351b06dd9f4e6e3bbd/737816-drupal_7_8-no_prefix.patch"
+
+; Get rid of private variables in class DrupalCacheArray.
+; http://drupal.org/node/1371484
+projects[drupal][patch][1371484] = "http://drupal.org/files/1371484-private_properties-1.patch"
