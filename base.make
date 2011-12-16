@@ -90,7 +90,7 @@ projects[job_scheduler][patch][1137378] = "http://drupal.org/files/issues/fix_ne
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.0-alpha1"
+projects[libraries][version] = "2.0-alpha2"
 
 projects[markdown][type] = "module"
 projects[markdown][subdir] = "contrib"
@@ -112,7 +112,7 @@ projects[variable][version] = "1.1"
 
 projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.0-beta1"
+projects[entityreference][version] = "1.0-beta2"
 
 ; Views
 
