@@ -38,15 +38,11 @@ projects[openidadmin][version] = "1.0"
 
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta4"
+projects[strongarm][version] = "2.0-beta5"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc3"
-
-; Fix RC3
-; http://drupal.org/node/1032836
-projects[views][patch][1032836] = "http://drupal.org/files/unpack_translatables-1032836-39.patch"
+projects[views][version] = "3.0"
 
 ; Avoid subselect in taxonomy relationships.
 ; http://drupal.org/node/1024832
@@ -69,6 +65,9 @@ projects[rubik][download][branch] = "7.x-4.x"
 projects[boxes][type] = "module"
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0-beta6"
+
+; Fatal error.
+; http://drupal.org/node/1199442
 projects[boxes][patch][1199442] = "http://drupal.org/files/boxes.patch"
 
 projects[date][type] = "module"
