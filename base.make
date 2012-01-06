@@ -26,7 +26,7 @@ projects[diff][version] = "2.0"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta4"
+projects[features][version] = "1.0-beta6"
 
 ; Don't add dependencies for user permissions.
 ; No issue yet.
@@ -72,7 +72,7 @@ projects[boxes][patch][1199442] = "http://drupal.org/files/boxes.patch"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.0-alpha5"
+projects[date][version] = "2.0-rc1"
 
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
