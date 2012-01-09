@@ -111,7 +111,7 @@ projects[variable][version] = "1.1"
 
 projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.0-beta2"
+projects[entityreference][version] = "1.0-beta3"
 
 ; Views
 
