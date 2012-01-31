@@ -42,7 +42,7 @@ projects[strongarm][version] = "2.0-beta5"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0"
+projects[views][version] = "3.1"
 
 ; Avoid subselect in taxonomy relationships.
 ; http://drupal.org/node/1024832
@@ -64,11 +64,7 @@ projects[rubik][download][branch] = "7.x-4.x"
 
 projects[boxes][type] = "module"
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta6"
-
-; Fatal error.
-; http://drupal.org/node/1199442
-projects[boxes][patch][1199442] = "http://drupal.org/files/boxes.patch"
+projects[boxes][version] = "1.0-beta7"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
