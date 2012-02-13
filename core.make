@@ -20,13 +20,15 @@ projects[drupal][patch][93854] = "http://drupal.org/files/fix-autocompletion-wit
 ; http://drupal.org/node/972536
 ;projects[drupal][patch][972536] = "http://drupal.org/files/issues/972536-24.patch"
 
-; http://drupal.org/node/966210 - DB Case Sensitivity.
-projects[drupal][patch][966210] = http://drupal.org/files/issues/966210_db_case_sensitivity.patch
+; DB Case Sensitivity.
+; http://drupal.org/node/1237252
+; http://drupal.org/node/966210
+projects[drupal][patch][966210] = "https://raw.github.com/gist/1164547/ec9f99491599f4d4f0197cc75843732ba1e81aa9/966210-plus-1237252-drupal_7_12.patch"
 
 ; Taxonomy.
 ; http://drupal.org/node/1343822
 ; http://drupal.org/node/962664
-projects[drupal][patch][1050466] = "https://raw.github.com/gist/1164547/ea81c596e70c6ce8801e6616db263e071d8ee6ef/1343822-plus-962664-drupal_7_12.patch"
+projects[drupal][patch][962664] = "https://raw.github.com/gist/1164547/ea81c596e70c6ce8801e6616db263e071d8ee6ef/1343822-plus-962664-drupal_7_12.patch"
 
 ; http://drupal.org/node/1161708
 projects[drupal][patch][1161708] = "https://raw.github.com/gist/1164547/b17be3031d92734dffbd593ec7bf31773b29d07c/1161708_no_field_instance-no_prefix.patch"
